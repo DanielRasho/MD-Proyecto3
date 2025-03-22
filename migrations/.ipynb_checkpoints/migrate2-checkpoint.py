@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Define the file path
-file_path = "/Users/juanluis/Documents/educacion/U/semestres/semestre_10/Mineria/MD-Proyecto3/data/2013.CSV"  # Change this to your actual file path
+file_path = "./data/2013.CSV"  # Change this to your actual file path
 
 # Read the CSV file
 df = pd.read_csv(file_path)
