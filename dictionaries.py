@@ -1,5 +1,27 @@
 import pandas as pd
 
+VARS = {
+    "EDADHOM": "Edad hombre", 
+    "EDADMUJ" : "Edad mujer",
+    "DEPREG": "Departamento de registro",
+    "MUPREG": "Municipio de registro",
+    "MESREG": "Mes de registro",
+    "AÑOREG": "Año de registro",
+    "DIAOCU": "Dia de ocurrencia",
+    "MESOCU": "Mes de ocurrencia",
+    "AÑOOCU": "Año de ocurrencia",
+    "DEPOCU": "Departamento de ocurrencia",
+    "MUPOCU": "Municipio de ocurrencia",
+    "PUEHOM": "Pueblo étnico del hombre", 
+    "PUEMUJ": "Pueblo étnico de la mujer", 
+    "NACHOM": "Nacionalidad hombre", 
+    "NACMUJ": "Nacionalidad mujer", 
+    "ESCHOM": "Escolaridad del hombre", 
+    "ESCMUJ": "Escolaridad de la mujer", 
+    "CIUOMUJ": "Ocupación de la mujer", 
+    "CIUOHOM": "Ocupación de la mujer"
+}
+
 DEPREG = {
     1: "Guatemala",
     2: "El Progreso",
